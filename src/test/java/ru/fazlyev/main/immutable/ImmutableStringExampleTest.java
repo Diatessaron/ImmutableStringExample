@@ -14,9 +14,7 @@ class ImmutableStringExampleTest {
 
         test = "Test1";
 
-        final int actual = example.getLength();
-
-        assertNotEquals(test.length(), actual);
+        assertNotEquals(test.length(), example.getLength());
     }
 
     @Test
@@ -26,9 +24,7 @@ class ImmutableStringExampleTest {
 
         test = "Test1";
 
-        final String actual = example.getContent();
-
-        assertNotEquals(test, actual);
+        assertNotEquals(test, example.getContent());
     }
 
     @Test
