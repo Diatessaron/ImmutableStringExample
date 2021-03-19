@@ -24,4 +24,8 @@ public final class ImmutableStringExample {
     public LocalDateTime getCreationDate() {
         return LocalDateTime.of(creationDate.toLocalDate(), creationDate.toLocalTime());
     }
+
+    public void print() {
+        System.out.println("String");
+    }
 }
